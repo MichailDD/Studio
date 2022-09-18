@@ -59,10 +59,12 @@ const config = {
 		// (в режиме разработчика, папка с результаттом будет создаваться на диске)
 		/*
 		devMiddleware: {
-			writeToDisk: true,
-		},
-		*/
-
+		// 	writeToDisk: true,
+		// },
+		// */
+		devMiddleware: {
+			 	writeToDisk: true,
+			 },
 		watchFiles: [
 			`${paths.src}/**/*.html`,
 			`${paths.src}/**/*.pug`,
