@@ -1,0 +1,58 @@
+
+.news {
+    @include adaptiveValue("padding-top", 112,90 );
+
+		// .news__title
+
+		&__title {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 700;
+            font-size: rem(36);
+            line-height: rem(44);
+            color: #080808;
+		}
+
+		// .news__list
+
+		&__list {
+            display: flex;
+            align-items: center;
+            gap: rem(32);
+
+		}
+
+		// .news__item
+
+		&__item {
+		}
+
+		// .news__link
+
+		&__link {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: rem(11);
+            line-height:rem(13);
+            letter-spacing: 0.06em;
+            color: #828282;
+            &:hover{
+               color: #080808;
+                transition: all 0.5s;
+                border-bottom: 1px solid #080808;
+                
+            }
+		}
+}
+.news-blok {
+
+		// .news-blok__container
+
+		&__container {
+            display: flex;
+            padding-left: rem(197);
+            gap: rem(412);
+            
+		}
+}

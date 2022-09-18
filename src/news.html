@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 	@@include('html/_head.htm',{
-	"title":"Главная"
+	"title":"News"
 	})
 	<body>
 		<div class="wrapper">
 			@@include('html/_header.htm',{})
 			<main class="page">
+                <section class="page-news news">
+                    <div class="news-blok__container">
+                        <h1 class="news__title">Our latest news</h1>
+                        <ul class="news__list">
+                            <li class="news__item"><a href="#" class="news__link">All</a></li>
+                            <li class="news__item"><a href="#" class="news__link">Blog</a></li>
+                            <li class="news__item"><a href="#" class="news__link">News</a></li>
+                            <li class="news__item"><a href="#" class="news__link">Advice from the designer</a></li>
+                        </ul>
+                    </div>
+                </section>
 			</main>
 			@@include('html/_footer.htm',{})
 		</div>

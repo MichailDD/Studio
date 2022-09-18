@@ -25,11 +25,13 @@
 	&__button {
 		display: flex;
 		gap: rem(16);
+		
 	}
 
 	// .header__btn
 
 	&__btn {
+		
 	}
 }
 .menu {
@@ -86,7 +88,7 @@
 	}
 	@media (any-hover: hover) {
 	&:hover {
-		
+		transition: all 0.3s;
 		border: 1px solid grey;
 	}
 }
