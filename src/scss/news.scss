@@ -56,3 +56,225 @@
             
 		}
 }
+/////////////////////////////////////////
+
+.slider {
+            &__img{
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+            }
+		// .slider__news
+
+		&__news {
+		}
+
+		// .slider__container
+
+		&__container {
+                  padding-top: rem(124);
+		}
+
+		// .slider__blok
+
+		&__blok {
+                  display: flex;
+                  
+		}
+
+		// .slider__blok-text
+
+		&__blok-text {
+                  background-color:#F2F2F2;
+                  padding-top: rem(329);
+                  padding-left: rem(56);
+                  
+		}
+
+		// .slider__blok-image
+
+		&__blok-img {
+                  background: url(../img/news/image02.png);
+                  max-width: rem(652);
+                  max-height: rem(652);
+                  &-2{
+                        background: url(../img/news/image03.png);
+                        max-width: rem(652);
+                        max-height: rem(652);
+                  }
+		}
+
+		// .slider__blok-gr
+
+		&__blok-gr {
+                  display: flex;
+                  gap: rem(8);
+                  padding-top: rem(8);
+                  padding-bottom: rem(8);
+		}
+}
+.blok-imege__title{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 700;
+      font-size: rem(28);
+      line-height: rem(36);
+      color: $secondColor;
+      padding-top: rem(524);
+      padding-left: rem(56);
+      padding-bottom: rem(56);
+      padding-right: rem(369);
+}
+.news {
+
+		// .news__slider
+
+		&__slider {
+		}
+
+		// .news__wrapper
+
+		&__wrapper {
+		}
+
+		// .news__slide
+
+		&__slide {
+		}
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-pagination{
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 12px;
+      color: #000;
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.2);
+}
+.blok-text {
+      
+		// .blok-text__title
+
+		&__title {
+                  font-family: Montserrat;
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: rem(28);
+                  line-height: rem(34);
+                  color: $colorText;
+                  padding-right: rem(235);
+		}
+
+		// .blok-text__subtitle
+
+		&__subtitle {
+                  font-family: Montserrat;
+                  font-style: normal;
+                  font-weight: 300;
+                  font-size: rem(14);
+                  line-height: rem(24);
+                  color:$colorText;
+                  opacity: 0.7;
+                  padding-right: rem(167);
+                  padding-top: rem(24);
+		}
+
+		// .blok-text__descr
+
+		&__descr {
+                  font-family: Montserrat;
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: rem(10);
+                  line-height: rem(12);
+                  letter-spacing: 0.12em;
+                  text-transform: uppercase;
+                  padding-top: rem(56);
+
+		}
+}
+
+.footer {
+      
+		// .footer__news
+
+		&__news {
+                  background: url(../img/news/footer-1.png);
+                  background-repeat: no-repeat;
+                  @include adaptiveValue("margin-top",250 ,200 );
+                  width: rem(1440);
+                  
+		}
+
+		// .footer__container
+
+		&__container {
+		}
+
+		// .footer__blok
+
+		&__blok {
+                  
+		}
+
+		// .footer__title
+
+		&__title {
+                  font-family: Montserrat;
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: rem(36);
+                  line-height: rem(51);
+                  color: $secondColor;
+                  padding-right: rem(817);
+                  padding-top: rem(140);
+
+		}
+
+		// .footer__form
+
+		&__form {
+
+		}
+
+		// .footer__form-descr
+
+		&__form-descr {
+                  font-family: Montserrat;
+                  font-style: normal;
+                  font-weight: 300;
+                  font-size: rem(14);
+                  line-height: rem(24);
+                  color: $secondColor;
+		}
+
+		// .footer__link
+
+		&__link {
+		}
+
+		// .footer__img
+
+		&__img {
+		}
+}
+.form {
+
+		// .form__footer
+
+		&__footer {
+		}
+
+		// .form__input
+
+		&__input {
+		}
+}
+
