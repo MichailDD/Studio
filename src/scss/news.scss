@@ -1,5 +1,6 @@
 
 .news {
+     
     @include adaptiveValue("padding-top", 112,90 );
 
 		// .news__title
@@ -213,11 +214,8 @@
                   
 		}
             &__line{
-                  width: rem(382);
-                  height: rem(1);
-                  background: rgba(255, 255, 255, 0.3);
-                  
-
+                  padding-bottom: rem(187);
+                  padding-left: rem(797);
             }
 		// .footer__container
 
@@ -238,9 +236,11 @@
                   font-weight: 700;
                   font-size: rem(36);
                   line-height: rem(51);
-                  color: $secondColor;
-                  padding-right: rem(817);
+                  color: $secondColor; 
                   padding-top: rem(140);
+                  padding-right: rem(817);
+                  
+                  
 
 		}
 
@@ -270,8 +270,12 @@
 		// .footer__img
 
 		&__img {
-
+                  padding-left: rem(130);
 		}
+}
+.footer__news-blok{
+     
+
 }
 .form {
 
@@ -279,10 +283,10 @@
 
 		&__footer {
                   padding-left: rem(797);
-                  padding-bottom: rem(187);
+                 
                   display: flex;
                   align-items: center;
-                  max-width: rem(382);
+                  width: rem(382);
                   
 
 		}
@@ -300,6 +304,7 @@
                   opacity: 0.7;
                   outline: none;
                   border-bottom: 1px rgba(255, 255, 255, 0.3);
+                  
                   
                  
                   
