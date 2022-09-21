@@ -1,0 +1,251 @@
+
+.italian {
+
+		// .italian__page
+
+		&__page {
+            @include adaptiveValue("padding-top",112 ,80 );
+		}
+
+		// .italian__container
+
+		&__container {
+            display: flex;
+            @include adaptiveValue("gap",208 ,150 );
+            
+		}
+
+		// .italian__text
+
+		&__text {
+            display: flex;
+            flex-direction: column;
+            @include adaptiveValue("gap",32 ,15 );
+            @include adaptiveValue("padding-left",133 ,80 );
+            
+		}
+        &__parag{
+            max-width: rem(715);
+        }
+
+		// .italian__title
+
+		&__title {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 700;
+            font-size: rem(36);
+            line-height: rem(44);
+            color: $colorText;
+           
+		}
+
+		// .italian__descr
+
+		&__descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: rem(14);
+            line-height:rem(24);
+            opacity: 0.7;
+            color: $colorText;
+
+		}
+
+		// .italian__share
+
+		&__share {
+		}
+}
+.share {
+            display: flex;
+            flex-direction: column;
+            gap: rem(10);
+		// .share__title
+
+		&__title {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: rem(14);
+            line-height: 170.66%;
+
+		}
+
+		// .share__link
+
+		&__link {
+            gap: rem(8);
+		}
+
+		// .share__icon
+
+		&__icon {
+		}
+
+		// .share__image
+
+		&__image {
+		}
+}
+
+.galary {
+padding-top: rem(96);
+		// .galary__container
+
+		&__container {
+            display: flex;
+            flex-direction: column;
+            @include adaptiveValue("gap", 96,40 );
+		}
+
+		// .galary__photo
+
+		&__photo {
+		}
+
+		// .galary__image
+
+		&__image {
+		}
+
+		// .galary__text
+
+		&__text {
+            max-width: rem(848);
+            @include adaptiveValue("padding-left",133 ,90 );
+		}
+
+		// .galary__title
+
+		&__title {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 700;
+            font-size: rem(16);
+            line-height: rem(22);
+            color: $colorText;
+            @include adaptiveValue("padding-bottom",17 ,10 );
+            
+
+		}
+
+		// .galary__descr
+
+		&__descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: rem(14);
+            line-height: rem(24);
+            opacity: 0.7;
+		}
+
+		// .galary__list
+
+		&__list {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: rem(14);
+            line-height: 170.66%;
+            color:$colorText;
+            opacity: 0.7;
+            list-style-type: none;
+            @include adaptiveValue("padding-top",40 ,20 );
+            @include adaptiveValue("padding-bottom",40 ,20 );
+
+		}
+
+		// .galary__item
+
+		&__item {
+            padding-top: rem(12);
+		}
+
+		// .galary__blok
+
+		&__blok {
+            
+		}
+        &__blok-1{
+            display: flex;
+            gap: rem(8);
+            margin-top: rem(8);
+        }
+
+		// .galary__line
+
+		&__line {
+            background: #828282;
+            opacity: 0.16;
+            height: rem(1);
+            width: rem(1046);
+            margin: 0 auto;
+            display: block;
+		}
+}
+.page-slider {
+}
+.card {
+    padding-left: rem(190);
+		// .card__title
+
+		&__title {
+            
+		}
+
+		// .card__slider
+
+		&__slider {
+            
+		}
+
+		// .card__wrapper
+
+		&__wrapper {
+        
+           gap:rem(54);
+		}
+
+		// .card__slide
+
+		&__slide {
+		}
+
+		// .card__blok
+
+		&__blok {
+            width: rem(316);
+            height: rem(475);
+		}
+
+		// .card__image
+
+		&__image {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+		}
+
+		// .card__text
+
+		&__text {
+		}
+
+		// .card__subtitle
+
+		&__subtitle {
+		}
+}
+.swiper {
+    
+   
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+  
+}
+
