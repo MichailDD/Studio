@@ -187,18 +187,26 @@ padding-top: rem(96);
 		}
 }
 .page-slider {
+
 }
 .card {
     padding-left: rem(190);
+	padding-top: rem(140);
 		// .card__title
 
 		&__title {
-            
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: 700;
+			font-size: rem(36);
+			line-height: rem(44);
+			color: $colorText;
 		}
 
 		// .card__slider
 
 		&__slider {
+			padding-top: rem(72);
             
 		}
 
@@ -212,6 +220,7 @@ padding-top: rem(96);
 		// .card__slide
 
 		&__slide {
+
 		}
 
 		// .card__blok
@@ -232,11 +241,24 @@ padding-top: rem(96);
 		// .card__text
 
 		&__text {
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: 700;
+			font-size: rem(14);
+			line-height: rem(19);
+			color: #3A3E4B;
+			padding-top: rem(24);
 		}
 
 		// .card__subtitle
 
 		&__subtitle {
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: 300;
+			font-size: rem(10);
+			line-height: rem(17);
+			color: #828282;
 		}
 }
 .swiper {
@@ -249,3 +271,50 @@ padding-top: rem(96);
   
 }
 
+.page {
+
+	// .page__footer
+
+	&__foo {
+	}
+}
+.foo {
+
+	// .footer__container
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		padding-top: rem(140);
+	}
+
+	// .footer__text
+
+	&__text {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 300;
+		font-size: rem(12);
+		line-height: rem(18);
+		color: #828282;
+	}
+
+	// .footer__blok
+
+	&__blok {
+		display: flex;
+		gap: rem(24);
+
+	}
+
+	.footer__descr{}
+
+	&__descr {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 300;
+		font-size: rem(12);
+		line-height: rem(18);
+		color: #828282;
+	}
+}
