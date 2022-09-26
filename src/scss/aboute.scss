@@ -1,0 +1,35 @@
+.page-blok {
+}
+.philosophy {
+    background: url(../img/aboute/bg-img.png);
+    background-repeat: no-repeat;
+    
+
+
+		// .philosophy__title
+
+		&__title {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 700;
+            font-size: rem(36);
+            line-height: rem(44);
+            color: $secondColor;
+            padding-top: rem(230);
+            text-align: center;
+		}
+
+		// .philosophy__descr
+
+		&__descr {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: rem(14);
+            line-height: rem(24);
+            color: $secondColor;
+            padding-top: rem(24);
+            padding-bottom: rem(230);
+            text-align: center; 
+		}
+}
