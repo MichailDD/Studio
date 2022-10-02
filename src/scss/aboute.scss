@@ -33,3 +33,74 @@
             text-align: center; 
 		}
 }
+
+.company {
+padding-top: rem(140);
+    // .company__inner
+
+    &__inner {
+        display: flex;
+         
+    }
+
+    // .company__text
+
+    &__text {
+       margin-left: rem(263);
+        
+       
+    }
+
+    // .company__title
+
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: rem(36);
+        line-height: rem(44);
+    }
+
+    // .company__descr
+
+    &__descr {
+    }
+
+    // .company__right
+
+    &__right {
+       
+    }
+
+    // .company__slider
+
+    &__slider {
+    }
+
+    // .company__wrapper
+
+    &__wrapper {
+        
+    }
+
+    // .company__slide
+
+    &__slide {
+    }
+
+    // .company__image
+
+    &__image {
+    }
+}
+.swiper-aboute {
+    
+   
+}
+.swiper-wrapper {
+  
+
+}
+.swiper-slide {
+   
+}
